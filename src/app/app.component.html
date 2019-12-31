@@ -8,4 +8,60 @@
     </h1>
 </header>
 <!-- fin de la cabecera -->
+
+<!-- menu de navegacion -->
+<nav id="nav">
+    <ul>
+        <li>
+            <a [routerLink]="['/']">Inicio</a>
+        </li>
+        <li>
+            <a [routerLink]="['/']">Contenido</a>
+        </li>
+        <li>
+            <a [routerLink]="['/']">Requerimientos</a>
+        </li>
+        <li>
+            <a [routerLink]="['/']">Lenguajes</a>
+            <ul>
+                <li>
+                    <a [routerLink]="['/']"> Html</a>
+                </li>
+                <li>
+                    <a [routerLink]="['/']">Css3</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a [routerLink]="['/']">Framework</a>
+            <ul>
+                <li>
+                    <a [routerLink]="['/']">Angular</a>
+                </li>
+                <li>
+                    <a [routerLink]="['/']">React</a>
+                </li>
+                <li>
+                    <a [routerLink]="['/']">Vue</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a [routerLink]="['/']">Proyectos</a>
+        </li>
+        <li>
+            <a [routerLink]="['/']">El Instructor</a>
+        </li>
+        <li>
+            <a [routerLink]="['/']">Reseñas</a>
+        </li>
+        <li>
+            <a [routerLink]="['/']">Blog</a>
+        </li>
+        <li>
+            <a [routerLink]="['/']">Contacto</a>
+        </li>
+    </ul>
+</nav>
+<!-- fin del menu -->
 <router-outlet></router-outlet>
